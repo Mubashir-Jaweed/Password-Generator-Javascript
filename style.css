@@ -1,0 +1,25 @@
+body{
+    background: #e6a1a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container{
+   display: flex;
+   justify-content: center;align-items: center;flex-direction: column;
+background: linear-gradient(225deg, #ffc0c0, #e6a1a1);
+    box-shadow: -27px 27px 0px #855d5d,
+        27px -27px 0px #ffffff;
+            padding: 10px;
+}
+
+
+.pass,button,a{
+    border: 0.5px solid;
+    width: 90%;
+    height: 30px;
+}
